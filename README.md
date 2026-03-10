@@ -1,4 +1,6 @@
 # Correlation and regression for data analysis
+# NAME : BALA B
+# REG.NO : 212224100005
 # Aim : 
 
 To analyse given data using coeffificient of correlation and regression line
@@ -20,10 +22,45 @@ If y represents the dependent variable and x the independent variable, this rela
 ![image](https://user-images.githubusercontent.com/104613195/168225866-ac8f6610-bdc3-4ac2-a24e-2b24ba08e189.png)
 
 # Program :
+```
+import matplotlib.pyplot as plt
+x=[int(i) for i in input().split()]
+y=[int(i) for i in input().split()]
+N=len(x)
+5x = 0
+Sy=0
+5xy = 0
+5 * 2 = 0
+Sy2=0
+for i in range(0,N):
+Sx = 5x + x[i]
+5y = 5y + y[i]
+Sxy=Sxy+x[i]*y[i]
+S * 2 = S * 2 + x * [i] ^ 2
+Sy2=Sy2+y[i]**2
+r=(N*Sxy-Sx*Sy)/(math.sqrt(N*Sx2-Sx**2)*math.sqrt(N*Sy2-Sy**2))
+print("The Correlation coefficient is %0.3f"%r)
+byx=(N*Sxy-Sx*Sy)/(N*Sx2-5x**2)
+xmean=Sx/N
+ymean-Sy/N
+print("THe Regression line Y on X is ::: y = %0.3f + %0.3f (x-%0.3f)"%(ymean, byx, xmean))
+plt.scatter(x,y)
+def Reg(x):
+return ymean + byx*(x-xmean)
+x=np.linspace(0,80,51)
+y * 1 = Reg(x)
+plt.plot(x,y1, 'r')
+plt.xlabel('x-data')
+plt.ylabel('y-data')
+plt.legend(['Regression Line', 'Data points'])
 
-![image](https://github.com/ramjan1729/Correlation_Regression/assets/103921593/9eb48cbf-8ca3-4cd9-8440-ff45fd98333e)
-
-
-# Result
-
+```
 # Output 
+<img width="922" height="721" alt="image" src="https://github.com/user-attachments/assets/5da3f248-e849-4c4c-93bb-05372003f358" />
+
+
+# RESULT 
+fetched the output successfully
+
+# LINK :
+https://github.com/bala641/Correlation_Regression
